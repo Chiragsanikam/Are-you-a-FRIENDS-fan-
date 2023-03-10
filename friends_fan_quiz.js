@@ -9,7 +9,7 @@ console.log("-----------------------------------------------")
 
 function add(question, answer){
   var answer_main = readlineSync.question(question);
-ch
+
   if(answer_main==answer){
     console.log("you are right")
     score=score+1;
